@@ -1,0 +1,7 @@
+[submodule "melting-snowman"]
+    path = projects/01-melting-snowman
+    url = https://github.com/BenjaminDerProgrammierer/melting-snowman.git
+
+[submodule "mastermind"]
+    path = projects/02-mastermind
+    url = https://github.com/BenjaminDerProgrammierer/mastermind.git
