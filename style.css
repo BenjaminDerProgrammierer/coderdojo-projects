@@ -16,6 +16,15 @@ h1 {
     margin: 1rem 0;
 }
 
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    background-color: #333;
+    padding: 1rem;
+}
+
 p.info {
     background-color: #333;
     color: #fff;
@@ -23,14 +32,14 @@ p.info {
     text-align: center;
 }
 
-#project-gallery {
+.project-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
 }
 
-#project-gallery .entry {
+.project-gallery .entry {
     border: 5px dashed white;
     background-color: #333;
     transition: transform 0.3s;
@@ -43,24 +52,28 @@ p.info {
     }
 }
 
-#project-gallery .entry img {
+.project-gallery .entry img {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
     object-fit: cover;
 }
 
-#project-gallery .entry h2 {
+.project-gallery .entry h3 {
     color: #fff;
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
 }
 
-#project-gallery .entry p {
+.project-gallery .entry p {
     color: #fff;
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
     margin-bottom: 1rem;
+
+    a {
+        color: white;
+    }
 }
